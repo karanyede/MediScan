@@ -6,8 +6,10 @@ import OCRPage from './pages/OCRPage';
 function App() {
   return (
     <Routes>
+      <React>
       <Route path="/" element={<LandingPage />} />
       <Route path="/ocr" element={<OCRPage />} />
+      </React>
     </Routes>
   );
 }
